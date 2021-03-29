@@ -12,15 +12,16 @@
     <!--input em HTML-->
     <input type="number" name="n1" id="n1">
     <input type="number" name="n2" id="n2">
-    <input type="button" value="somar" onclick="clicar()">
+    <input type="button" value="somar" onclick="somar()">
 
     <div id="res">Resultado</div>
 
     <script>
+        function somar() {
         //Pe3gando do input HTML como String
-        var tn1 = window.document.getElementsByName('n1')
-        var tn2 = window.document.getElementsByName('n2')
-        var res = window.document.getElementsById('res')
+        var tn1 = window.document.getElementById('n1')
+        var tn2 = window.document.getElementById('n2')
+        var res = window.document.getElementById('res')
 
         //Convertendo para Numero
         n1 = Number(tn1.value)
@@ -28,7 +29,8 @@
 
         soma = n1 + n2
 
-        res.innerHTML = soma
+        res.innerHTML = "A saoma entre " + n1 + " e " + n2 + " é: " + soma
+    }
     </script>
 </body>
 </html>
