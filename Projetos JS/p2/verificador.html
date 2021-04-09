@@ -8,22 +8,28 @@
     <script src="script.js"></script>
     <title>P1</title>
 </head>
-<body onload="carregar()">
+<body>
     <header>
         <h1>verificador</h1>
     </header>
 
     <section>
         <div>
-            <p>Ano de Nascimento: <input type="number" name="txtano" id="ano"></p>
-            <p>Sexo
-                <input type="radios" name="" id="masac">
-                <label for="masc">Masculino:</label></p>
+            <p>Ano de Nascimento: <input type="number" name="txtano" id="txtano"></p>
+            <p>Sexo:
+                <input type="radio" name="sex" id="masac">
+                <label for="masc">Masculino:</label>
+                <input type="radio" name="sex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p><input type="button" value="Verificar" onclick="verificar()"></p>
+
+
 
         </div>
 
         <div id="res">
-            teste...
+            
         </div>
 
     </section>

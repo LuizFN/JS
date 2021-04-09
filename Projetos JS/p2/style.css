@@ -4,12 +4,12 @@ body {
 }
 
 header {
-    color: wheat;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
 section {
-    background: wheat;
+    background: rgb(253, 253, 252);
     border-radius: 15px;
     padding: 15px;
     width: 500px;
@@ -23,7 +23,7 @@ div {
 }
 
 footer {
-    color: wheat;
+    color: rgb(250, 249, 248);
     text-align: center;
     font-style: italic;
 }
