@@ -1,2 +1,2 @@
-# js
- js
+# JS
+ Alguns exemplos de JavaScvript.
