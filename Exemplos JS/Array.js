@@ -4,12 +4,12 @@ console.log(vetor)
 
 console.log('O vetor tem ' + vetor.length + ' posições ')//Total de elementos dom vetor
 
-//indexOf: passa popr parametro ovalor que deseja saber a posição no vetor
+//indexOf: passa por parametro o valor que deseja saber a posição no vetor
 let qualPosEelement = vetor.indexOf(6)
-console.log(`O Valor ${vetor[1]} esta na posição ${qualPosEelement}`)
+console.log(`O Valor ${vetor[1]} esta na posição ${qualPosEelement}`)//[][6][][][][]
 
-vetor.push(1)// Coloca o vetor passado por parametro na utima posição
-vetor.sort()//Coloca em ordem vetorerica crecente
+vetor.push(1)// Coloca o valor passado por parametro na utima posição
+vetor.sort()//Coloca o valor em ordem crecente
 console.log(vetor)
 
 console.log("")
